@@ -23,15 +23,18 @@ export const About = () => {
           <Col lg="8">
             <h1 className="display-4 mb-4">About me</h1>
             <hr className="t_border my-4 ml-0 text-left" />
+            <hr className="t_border my-8 ml-0 text-left" />
           </Col>
         </Row>
         <Row className="sec_sp">
           <Col lg="5">
-            <h3 className="color_sec py-4">{dataabout.title}</h3>
+                      <h3 className="color_sec py-4">{dataabout.title}</h3>
           </Col>
           <Col lg="7" className="d-flex align-items-center">
             <div>
-              <p>{dataabout.aboutme}</p>
+                          <p>{dataabout.aboutme}</p>
+                          <hr className="t_border_big my-8 ml-0 text-left" />
+
             </div>
           </Col>
         </Row>
@@ -39,7 +42,8 @@ export const About = () => {
           <Col lg="5">
             <h3 className="color_sec py-4">Work Timline</h3>
           </Col>
-          <Col lg="7">
+                  <Col lg="7">
+                      <hr className="t_border_big my-8 ml-0 text-left" />
             <table className="table caption-top">
               <tbody>
                 {worktimeline.map((data, i) => {
@@ -52,14 +56,17 @@ export const About = () => {
                   );
                 })}
               </tbody>
-            </table>
+                      </table>
+                      <hr className="t_border_big my-8 ml-0 text-left" />
           </Col>
         </Row>
         <Row className="sec_sp">
           <Col lg="5">
             <h3 className="color_sec py-4">Skills</h3>
-          </Col>
-          <Col lg="7">
+                  </Col>
+
+                  <Col lg="7">
+                      <hr className="t_border_big my-8 ml-0 text-left" />
             {skills.map((data, i) => {
               return (
                 <div key={i}>
@@ -77,13 +84,15 @@ export const About = () => {
                 </div>
               );
             })}
+                      <hr className="t_border_big my-8 ml-0 text-left" />
           </Col>
         </Row>
         <Row className="sec_sp">
           <Col lang="5">
             <h3 className="color_sec py-4">services</h3>
           </Col>
-          <Col lg="7">
+                  <Col lg="7">
+                      <hr className="t_border_big my-8 ml-0 text-left" />
             {services.map((data, i) => {
               return (
                 <div className="service_ py-4" key={i}>
@@ -92,6 +101,7 @@ export const About = () => {
                 </div>
               );
             })}
+                      <hr className="t_border_big my-8 ml-0 text-left" />
           </Col>
         </Row>
       </Container>
