@@ -94,7 +94,7 @@ function CursorCore({
     outerAlpha = 0.3,
     innerSize = 8,
     outerSize = 8,
-    outerScale = 6,
+    outerScale = 8,
     innerScale = 0.6,
     trailingSpeed = 8,
     clickables = [
@@ -136,7 +136,7 @@ function CursorCore({
     }, [])
   
     // Outer Cursor Animation Delay
-    const animateOuterCursor = useCallback(
+  /*const animateOuterCursor = useCallback(
       (time) => {
         if (previousTimeRef.current !== undefined) {
           coords.x += (endX.current - coords.x) / trailingSpeed
@@ -148,13 +148,13 @@ function CursorCore({
         requestRef.current = requestAnimationFrame(animateOuterCursor)
       },
       [requestRef] // eslint-disable-line
-    )
+    )*/
   
     // RAF for animateOuterCursor
-    useEffect(() => {
+    /*useEffect(() => {
       requestRef.current = requestAnimationFrame(animateOuterCursor)
       return () => cancelAnimationFrame(requestRef.current)
-    }, [animateOuterCursor])
+    }, [animateOuterCursor])*/
   
     // Mouse Events State updates
     const onMouseDown = useCallback(() => setIsActive(true), [])

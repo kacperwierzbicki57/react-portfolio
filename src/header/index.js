@@ -4,6 +4,7 @@ import { VscGrabber, VscClose } from "react-icons/vsc";
 import { Link } from "react-router-dom";
 import { logotext ,socialprofils } from "../content_option";
 import Themetoggle from "../components/themetoggle";
+import catImg from "../assets/images/cat.png";
 
 const Headermain = () => {
   const [isActive, setActive] = useState("false");
@@ -64,9 +65,39 @@ const Headermain = () => {
       <div className="br-bottom"></div>
       <div className="br-left"></div>
       <div className="br-right"></div>
+
+      <div className="br-right"></div>
       
+      {/* Optional extra box with an image in the corner
+      <div
+        style={{
+          position: "fixed",
+          right: "30px",
+          bottom: "30px",
+          width: "220px",
+          height: "220px",
+          background: "#fff",
+          borderRadius: "18px",
+          boxShadow: "0 2px 18px rgba(0,0,0,0.12)",
+          zIndex: 9999,
+           display: "flex",
+          alignItems: "center",
+          justifyContent: "center",
+        }}
+      >
+        <img
+            src={catImg}
+          alt="Corner"
+          style={{ width: "200px", height: "200px", objectFit: "cover", borderRadius: "12px" }}
+        />
+
+      </div>*/}
     </>
   );
+      
+      
+    
+  
 };
 
 export default Headermain;

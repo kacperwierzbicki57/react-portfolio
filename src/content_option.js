@@ -69,56 +69,42 @@ const services = [{
 ];
 
 const dataportfolio = [{
-        img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/800/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/600/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "https://google.com/",
-    },
-    {
-        img: "https://picsum.photos/400/800/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/800/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/800/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/800/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/800/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/800/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
+        img: require("./assets/images/MainPage.jpg"),
+        description: "Html project",
+        link: "/html_project",
 
     },
+    {
+         img: require("./assets/images/MainCat.jpg"),
+        description: "Random Cats",
+        link: "/cats_project",
+    },
+    {
+        img: "https://picsum.photos/400/?",
+        description: "Paint - placeholder",
+        //link: "paint_project",
+    },
+    {
+        img: "https://picsum.photos/400/600/?",
+        description: "Vectors - placeholder",
+        //link: "vectors_project",
+    },
+    {
+        img: "https://picsum.photos/400/800/?grayscale",
+        description: "Perfect circle maker - placeholder ",
+        //link: "circle_project",
+    },
+      {
+        img: "https://picsum.photos/400/800/?grayscale",
+        description: " Vending and cash machine interface - placeholder ",
+        //link: "vending_project",
+    },
+      {
+        img: "https://picsum.photos/400/800/?grayscale",
+        description: " Learning App - placeholder ",
+        //link: "learning_project",
+    },
+    
 
 ];
 
@@ -128,17 +114,17 @@ const contactConfig = {
     description: "",
     // creat an emailjs.com account 
     // check out this tutorial https://www.emailjs.com/docs/examples/reactjs/
-    YOUR_SERVICE_ID: "service_id",
-    YOUR_TEMPLATE_ID: "template_id",
-    YOUR_USER_ID: "user_id",
+    YOUR_SERVICE_ID: "service_0wup3hj",
+    YOUR_TEMPLATE_ID: "template_5dotvlh",
+    YOUR_USER_ID: "tpeqmcsG2fT5-VcR6",
 };
 
 const socialprofils = {
-    github: "https://github.com",
-    facebook: "https://facebook.com",
-    linkedin: "https://linkedin.com",
-    twitter: "https://twitter.com",
-};
+     github: "https://github.com/kacperwierzbicki57?tab=repositories",
+//     facebook: "https://facebook.com",
+//     linkedin: "https://linkedin.com",
+//     twitter: "https://twitter.com",
+ };
 export {
     meta,
     dataabout,
